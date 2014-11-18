@@ -209,11 +209,12 @@ section p {
 
 section ul li {
 	color: #f0ecf5;
-	font-size: 18pt;
+	font-size: 16pt;
 	margin: 0;
-	line-height: 26pt;
+	line-height: 24pt;
 	float: center;
 }
+
 
 
 .grid4 .col:nth-of-type(4n+1),
@@ -265,7 +266,7 @@ section ul li {
 #ed {
 	max-width: 100%;
 	margin: 0 0 20px 0;
-	padding: 150px 0 350px 0;
+	padding: 80px 0 350px 0;
 	background: url("../img/SPseafoam.png") repeat-x;
 	float: center;
 	text-align: left;
@@ -273,7 +274,7 @@ section ul li {
 
 #ed li:nth-child(2) {
 	text-indent: 5%;
-	margin-bottom: 1em;
+	margin-bottom: .8em;
 }
 
 #ed li:nth-child(3) {
@@ -282,7 +283,7 @@ section ul li {
 
 #ed li:nth-child(4) {
 	text-indent: 20%;
-	margin-bottom: 1em;
+	margin-bottom: .8em;
 }
 
 #ed li:nth-child(5) {
@@ -291,7 +292,7 @@ section ul li {
 
 #ed li:nth-child(6) {
 	text-indent: 35%;
-	margin-bottom: 1em;
+	margin-bottom: .8em;
 }
 
 #ed li:nth-child(7) {
@@ -312,6 +313,11 @@ section ul li {
 	background: url("../img/SPpurple.png") repeat-x;
 	float: center;
 	text-align: center;
+}
+
+#work ul li {
+	font-size: 18pt;
+	margin-bottom: 1em;
 }
 
 #foot {
