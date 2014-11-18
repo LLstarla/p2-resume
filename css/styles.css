@@ -30,14 +30,28 @@ h2 {
 }
 
 h3 { 
-	font-family: 'Questrial', sans-serif;
-	color: #1D9089;
-	font-size: 2em;
+	font-family: 'Acme', sans-serif;
+	font-size: 5em;
 	text-align: center;
 	float: center;
+	text-transform: uppercase;
+	letter-spacing: .2em;
 }
 
 
+.one {
+	color: #2e3a53;
+}
+
+.two {
+	color: #1f1225;
+}
+.three {
+	color: #2f6056;
+}
+.four {
+	color: #47254c;
+}
 body {
 	background: url("../img/dw2.png") ;
 	color: #1D9089;
@@ -49,7 +63,7 @@ nav {
 	float: center;
 	margin-left: -25px;
 	margin-top: 50px;
-	margin-bottom: 150px;
+	margin-bottom: 350px;
 }
 
 
@@ -149,8 +163,8 @@ section ul li {
 
 #comp {
 	max-width: 100%;
-	margin: 0 0 20px 0;
-	padding: 150px 0 350px 0;
+	margin: 130px 0 20px 0;
+	padding: 150px 0 650px 0;
 	background: url("../img/SPblue2.png") repeat-x;
 	text-align: center;
 	}	
@@ -158,7 +172,7 @@ section ul li {
 #fam {
 	max-width: 100%;
 	margin: 50px 0 20px 0;
-	padding: 150px 0 350px 0;
+	padding: 150px 0 650px 0;
 	background: url("../img/SPdarkpurple.png") repeat-x;
 	text-align: center;
 	}
@@ -167,7 +181,7 @@ section ul li {
 #ed {
 	max-width: 100%;
 	margin: 0 0 20px 0;
-	padding: 80px 0 350px 0;
+	padding: 80px 0 450px 0;
 	background: url("../img/SPseafoam.png") repeat-x;
 	float: center;
 	text-align: left;
