@@ -1,0 +1,246 @@
+/*       Color Palette:
+			Dark black-ish purple: #180620
+			Dark purple: #280F36
+			Plum: #65326D
+			Ice blue: #B9EFEF
+			Teal: #1D9089
+			Dark blue: #182F3F          */
+
+header {
+	background: url("../img/dripping-paint-BLUEE.png") repeat-x;
+	background-size: 100%;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding: 100px;
+	max-width: 100%;
+
+}
+
+
+h1 { 
+	font-family: 'Questrial', sans-serif;
+	color: #65326D;
+	font-size: 5em;
+	text-align: center;
+	float: center;
+	padding-top: 150px;
+	margin-bottom: 0;
+}
+
+
+h2 { 
+	font-family: 'Questrial', sans-serif;
+	color: #1D9089;
+	font-size: 2em;
+	text-align: center;
+	float: center;
+
+}
+
+h3 { 
+	font-family: 'Questrial', sans-serif;
+	color: #1D9089;
+	font-size: 2em;
+	text-align: center;
+	float: center;
+	
+
+}
+
+
+body {
+	background: url("../img/dark-wood-dark-purple.png");
+	color: #1D9089;
+}
+
+
+nav {
+	text-align: center;
+	float: center;
+	max-width: 100%;
+	margin-left: -25px;
+}
+
+
+nav li {
+	display: inline;
+}
+
+nav a {
+	font-weight: 800;
+
+}
+
+nav ul li a {
+	font-family: 'Questrial', sans-serif;
+	list-style: none;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #182F3F;
+	font-size: 1.25em;
+}
+
+li a {
+	border: 2px;
+	padding: 20px;
+}
+
+nav a { color: #182F3F;} 
+
+nav a:hover { color: #B9EFEF;} 
+
+
+p {font-family:'Questrial', sans-serif;
+}
+
+#bio {
+	display: block;
+	color: #65326D;
+	font-family:'Questrial', sans-serif;
+	font-size: 1.6em;
+	
+	max-width: 100%;
+	letter-spacing: .5px;
+}
+
+
+
+#pone {
+	text-align: left;
+	margin: 20px 12px 40px 0;
+}
+
+#ptwo {
+	text-align: center;
+	margin: 20px 0 40px 0;
+}
+
+#pthree {
+	text-align: right;
+	margin: 20px 0 40px 12px;
+}
+
+#picture {
+	display: block;
+	max-width: 125%;
+	
+	border-radius: 20px;
+}
+
+
+
+
+.embedly-embed {
+	border-radius: 20px;
+}
+
+#foot {
+	color: #182F3F;
+	text-align: center;
+	float: center;
+	text-transform: uppercase;
+	max-width: 100%;
+	
+
+}
+
+.poodle {
+	margin: 0 auto;
+	max-width: 100%;
+	position: relative;
+	text-align: center;
+	float: center;
+}
+
+
+
+
+/*********CSS EXAMPLES***************
+
+url("../img/dark-wood.png") repeat;
+
+body {
+    background: #6DB3F2  url('http://wizzley.com/static/img/bg/texture8.png');
+}
+
+radial-gradient(
+      #65326D,
+      #280F36);
+
+h1 {
+	color: white;
+	font-family: 'Bitter', serif;
+	width: 375px;
+	padding: 10px;
+	border: 10px solid #80A437;
+	margin: 0px 0px 0px 100px;}
+
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;}
+
+body{
+	background: url("../img/rainbowbg.png") no-repeat;
+	background-size: 35%;
+	background-color: #212227;}
+
+**********************************************************
+
+body { 
+	font-family: 'Nunito' , sans-serif;
+	color: #FAF3BC;
+	background: #420600 url('img/bg-texture.jpg') repeat;}
+
+a {
+	color: #4FB69F;
+	text-decoration: none;}
+
+h1	{ 
+	font-size: 1.750ems;
+	letter-spacing: -1.5px;}
+
+h2 {
+	font-size: 1.500ems;
+	color: #B4C34F;}
+
+.btn{
+	color: #FAF3BC;
+	background: #4FB69F url('img/texture.png') no-repeat right top;
+	padding: 15px 30px;
+	margin: 40px 0px;
+	border-radius: 25px;
+	text-transform: uppercase;}
+
+.btn:hover {
+	background-color: #4CC4A7;}
+
+ul.nav {
+	margin: 120px 0 0 0;
+	list-style: none;
+	float: right;}
+
+ul.nav li {
+	float: left;
+	margin-right: 40px;}
+
+ul.nav li a {
+	color: #FAF3BC;}
+
+#intro {
+	margin: 50px 0 75px 0;}
+
+#new-cupcakes img {
+	border: 8px solid #FAF3BC;
+	margin: 0 0 20px 0;}
+
+#featured-cupcake img {
+	border: 8px solid #FAF3BC;}
+
+#copyright {
+	border-top: 8px solid #2A0400;
+	padding: 10px 0px;
+	margin: 15px 0px;
+	text-align: center;}
+
+*******************************/
+
