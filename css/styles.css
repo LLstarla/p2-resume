@@ -207,6 +207,13 @@ section p {
 	margin: 0;
 	}
 
+section ul li {
+	color: #f0ecf5;
+	font-size: 18pt;
+	margin: 0;
+	line-height: 26pt;
+	float: center;
+}
 
 
 .grid4 .col:nth-of-type(4n+1),
@@ -237,6 +244,7 @@ section p {
 	width: 48.4%;
 }
 
+
 #comp {
 	max-width: 100%;
 	margin: 0 0 20px 0;
@@ -247,8 +255,8 @@ section p {
 
 #fam {
 	max-width: 100%;
-	margin: 0 0 20px 0;
-	padding: 150px 0 300px 0;
+	margin: 50px 0 20px 0;
+	padding: 150px 0 350px 0;
 	background: url("../img/SPdarkpurple.png") repeat-x;
 	text-align: center;
 	}
@@ -257,16 +265,50 @@ section p {
 #ed {
 	max-width: 100%;
 	margin: 0 0 20px 0;
-	padding: 150px 0 300px 0;
+	padding: 150px 0 350px 0;
 	background: url("../img/SPseafoam.png") repeat-x;
 	float: center;
-	text-align: center;
+	text-align: left;
+}
+
+#ed li:nth-child(2) {
+	text-indent: 5%;
+	margin-bottom: 1em;
+}
+
+#ed li:nth-child(3) {
+	text-indent: 15%;
+}
+
+#ed li:nth-child(4) {
+	text-indent: 20%;
+	margin-bottom: 1em;
+}
+
+#ed li:nth-child(5) {
+	text-indent: 30%;
+}
+
+#ed li:nth-child(6) {
+	text-indent: 35%;
+	margin-bottom: 1em;
+}
+
+#ed li:nth-child(7) {
+	text-indent: 45%;
+}
+
+#ed li:nth-child(8) {
+	text-indent: 50%;
+}
+#ed li:nth-child(9) {
+	text-indent: 55%;
 }
 
 #work {
 	max-width: 100%;
 	margin: 0 0 20px 0;
-	padding: 150px 0px 300px 0px;
+	padding: 150px 0px 350px 0px;
 	background: url("../img/SPpurple.png") repeat-x;
 	float: center;
 	text-align: center;
