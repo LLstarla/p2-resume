@@ -192,28 +192,31 @@ ul li {
 
 h4 {
 	transform: rotate(270deg);
-	transform-origin: left;
+	transform-origin: left center;
     text-transform: uppercase;
     font-family: 'Questrial', sans-serif;
 	color: #f0ecf5;
 	font-size: 200%;
 	text-align: left;
+	margin-left: 100px;
+	padding: 0 0 0 0;
+	text-indent: 350px;
 }
 	
 #comp {
 	color: #f0ecf5;
 	margin: 0 0 20px 0;
-	padding: 150px;
+	padding: 150px 0 500px 0;
 	background: url("../img/SPblue2.png") repeat-x;
 	float: center;
 	text-align: center;
 }	
 
-#comp h4 {
-	margin: 0 0 0 0;
-	padding: 0 0 0 0;
-	text-indent: 20px;
+#comp ul li {
+	font-size: 2em;
+	line-height: 2.5em;
 }
+
 
 #fam {
 	color: #f0ecf5;
@@ -224,11 +227,6 @@ h4 {
 	text-align: center;
 }
 
-#fam h4 {
-	margin: 0 0 0 0;
-	padding: 0 0 0 0;
-	text-indent: 40px;
-}
 
 #ed {
 	color: #f0ecf5;
@@ -239,12 +237,6 @@ h4 {
 	text-align: center;
 }
 
-#ed h4 {
-	margin: 0 0 0 0;
-	padding: 0 0 0 0;
-	text-indent: 16px;
-}
-
 #work {
 	color: #f0ecf5;
 	margin: 0 0 20px 0;
@@ -252,12 +244,6 @@ h4 {
 	background: url("../img/SPpurple.png") repeat-x;
 	float: center;
 	text-align: center;
-}
-
-#work h4 {
-	margin: 0 0 0 0;
-	padding: 0 0 0 0;
-	text-indent: -130px;
 }
 
 #foot {
