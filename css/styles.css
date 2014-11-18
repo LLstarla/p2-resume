@@ -114,11 +114,11 @@ header {
 
 h1 { 
 	font-family: 'Questrial', sans-serif;
-	color: #312338;
-	font-size: 5em;
-	text-align: left;
+	color: #2b1d32;
+	font-size: 3.5em;
+	text-align: center;
 	float: center;
-	padding-top: 20px;
+	padding: 50px 300px 0 0;
 	margin-bottom: 0;
 	
 }
@@ -126,10 +126,12 @@ h1 {
 
 h2 { 
 	font-family: 'Questrial', sans-serif;
-	color: #1D9089;
-	font-size: 4em;
-	text-align: right;
+	color: #2b1d32;
+	font-size: 6em;
+	text-align: center;
 	float: center;
+	padding-left: 300px;
+	margin-top: 10px;
 
 }
 
@@ -159,6 +161,8 @@ nav {
 	float: center;
 	max-width: 100%;
 	margin-left: -25px;
+	margin-top: 175px;
+	background: url("../img/SPpink.png") no-repeat;
 }
 
 
@@ -177,7 +181,10 @@ nav ul li a {
 	text-decoration: none;
 	text-transform: uppercase;
 	color: #182F3F;
-	font-size: 1.25em;
+	font-size: 1.75em;
+	
+
+
 }
 
 li a {
