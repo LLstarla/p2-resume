@@ -199,31 +199,54 @@ section {
 	margin-top: 50px;
 	margin-bottom: 150px;
 }
-/*h4 {
-	transform: rotate(270deg);
-	transform-origin: left center;
-    text-transform: uppercase;
-    font-family: 'Questrial', sans-serif;
+
+
+section p {
 	color: #f0ecf5;
-	font-size: 200%;
-	text-align: left;
-	margin-left: 100px;
-	padding: 0 0 0 0;
-	text-indent: 350px;
-}*/
-	
+	font-size: 1.5em;
+	margin: 0;
+	}
+
+
+
+.grid4 .col:nth-of-type(4n+1),
+.grid3 .col:nth-of-type(3n+1),
+.grid2 .col:nth-of-type(2n+1) {
+	margin-left: 0;
+	clear: left;
+}
+
+.col {
+	float: left;
+	margin-left: 3.2%;
+	margin-bottom: 30px;
+}
+
+/* grid4 col */
+.grid4 .col {
+	width: 22.6%;
+}
+
+/* grid3 col */
+.grid3 .col {
+	width: 31.2%;
+}
+
+/* grid2 col */
+.grid2 .col {
+	width: 48.4%;
+}
+
 #comp {
 	max-width: 100%;
-	color: #f0ecf5;
 	margin: 0 0 20px 0;
-	padding: 150px 0 300px 0;
+	padding: 150px 0 350px 0;
 	background: url("../img/SPblue2.png") repeat-x;
 	text-align: center;
 	}	
 
 #fam {
 	max-width: 100%;
-	color: #f0ecf5;
 	margin: 0 0 20px 0;
 	padding: 150px 0 300px 0;
 	background: url("../img/SPdarkpurple.png") repeat-x;
@@ -232,7 +255,7 @@ section {
 
 
 #ed {
-	color: #f0ecf5;
+	max-width: 100%;
 	margin: 0 0 20px 0;
 	padding: 150px 0 300px 0;
 	background: url("../img/SPseafoam.png") repeat-x;
@@ -241,7 +264,7 @@ section {
 }
 
 #work {
-	color: #f0ecf5;
+	max-width: 100%;
 	margin: 0 0 20px 0;
 	padding: 150px 0px 300px 0px;
 	background: url("../img/SPpurple.png") repeat-x;
