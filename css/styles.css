@@ -204,26 +204,35 @@ h4 {
 }
 	
 #comp {
+	max-width: 100%;
 	color: #f0ecf5;
 	margin: 0 0 20px 0;
 	padding: 150px 0 500px 0;
 	background: url("../img/SPblue2.png") repeat-x;
-	float: center;
 	text-align: center;
+	text-indent: 180px;
 }	
 
 #comp ul li {
-	font-size: 2em;
-	line-height: 2.5em;
+	font-size: 1.5em;
+	line-height: 2em;
+	text-align: center;
 }
 
 
 #fam {
+	max-width: 100%;
 	color: #f0ecf5;
-	margin: 20px 0 20px 0;
-	padding: 150px;
+	margin: 0 0 20px 0;
+	padding: 150px 0 500px 0;
 	background: url("../img/SPdarkpurple.png") repeat-x;
-	float: center;
+	text-align: center;
+	text-indent: 180px;
+}
+
+#fam ul li {
+	font-size: 1.5em;
+	line-height: 2em;
 	text-align: center;
 }
 
