@@ -1,39 +1,134 @@
-/*       Color Palette:
-			Dark black-ish purple: #180620
-			Dark purple: #280F36
-			Plum: #65326D
-			Ice blue: #B9EFEF
-			Teal: #1D9089
-			Dark blue: #182F3F          */
+span p {
+	color: #180620;
+	margin: 5px 0 0 100px;
+	font-size: 1.5em;
+}
+span p + p {
+	color: #280F36;
+	margin: 5px 0 0 100px;
+	font-size: 1.5em;
+}
+span + span p {
+	color: #65326D;
+	margin: 5px 0 0 100px;
+	font-size: 1.5em;
+}
+span + span p + p {
+	color: #B9EFEF;
+	margin: 5px 0 0 100px;
+	font-size: 1.5em;
+}
+span + span + span p {
+	color: #1D9089;
+	margin: 5px 0 0 100px;
+	font-size: 1.5em;
+}
+span + span + span p + p {
+	color: #182F3F;
+	margin: 5px 0 0 100px;
+	font-size: 1.5em;
+}
+span + span + span + span p {
+	color: #04A1A4;
+	margin: 5px 0 0 100px;
+	font-size: 1.5em;
+}
+span + span + span + span p + p {
+	color: #4987AE;
+	margin: 5px 0 0 100px;
+	font-size: 1.5em;
+}
+span + span + span + span + span p {
+	color: #569695;
+	margin: 5px 0 0 100px;
+	font-size: 1.5em;
+}
+span + span + span + span + span p + p {
+	color: #8582BF;
+	margin: 5px 0 0 100px;
+	font-size: 1.5em;
+}
+span + span + span + span + span + span p {
+	color: #687BAF;
+	margin: 5px 0 0 100px;
+	font-size: 1.5em;
+}
+span + span + span + span + span + span p + p {
+	color: #5797BD;
+	margin: 5px 0 0 100px;
+	font-size: 1.5em;
+}
+span + span + span + span + span + span + span p {
+	color: #891BA0;
+	margin: 5px 0 0 100px;
+	font-size: 1.5em;
+}
+span + span + span + span + span + span + span p + p {
+	color: #C938D4;
+	margin: 5px 0 0 100px;
+	font-size: 1.5em;
+}
+span + span + span + span + span + span + span + span p {
+	color: #A14397;
+	margin: 5px 0 0 100px;
+	font-size: 1.5em;
+}
+span + span + span + span + span + span + span + span p + p {
+	color: #B6118A;
+	margin: 5px 0 0 100px;
+	font-size: 1.5em;
+}
+span + span + span + span + span + span + span + span + span p {
+	color: #B8045E;
+	margin: 5px 0 0 100px;
+	font-size: 1.5em;
+}
+span + span + span + span + span + span + span + span + span p + p {
+	color: #AB0375;
+	margin: 5px 0 0 100px;
+	font-size: 1.5em;
+}
+span + span + span + span + span + span + span + span + span + span p {
+	color: #9F4890;
+	margin: 5px 0 0 100px;
+	font-size: 1.5em;
+}
+span + span + span + span + span + span + span + span + span + span p + p {
+	color: #8B4783;
+	margin: 5px 0 0 100px;
+	font-size: 1.5em;
+}
 
 header {
-	background: url("../img/dripping-paint-BLUEE.png") repeat-x;
-	background-size: 100%;
+	/*background: url("../img/dripping-paint-BLUEE.png") repeat-x;
+	background-size: 100%;*/
 	margin-top: 0px;
 	margin-left: 0px;
 	margin-right: 0px;
 	padding: 100px;
 	max-width: 100%;
+	background: url("../img/SPpink.png") repeat-x;
 
 }
 
 
 h1 { 
 	font-family: 'Questrial', sans-serif;
-	color: #65326D;
+	color: #312338;
 	font-size: 5em;
-	text-align: center;
+	text-align: left;
 	float: center;
-	padding-top: 150px;
+	padding-top: 20px;
 	margin-bottom: 0;
+	
 }
 
 
 h2 { 
 	font-family: 'Questrial', sans-serif;
 	color: #1D9089;
-	font-size: 2em;
-	text-align: center;
+	font-size: 4em;
+	text-align: right;
 	float: center;
 
 }
@@ -44,13 +139,17 @@ h3 {
 	font-size: 2em;
 	text-align: center;
 	float: center;
-	
 
 }
 
+/*#test {
+	background: url("../img/SPpink.png") no-repeat;
+	
+}*/
+
 
 body {
-	background: url("../img/dark-wood-dark-purple.png");
+	background: url("../img/dw2.png") ;
 	color: #1D9089;
 }
 
